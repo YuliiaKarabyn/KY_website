@@ -1,0 +1,41 @@
+.post__content {
+    overflow-y: scroll;
+    height: 1000px;
+ }
+.list-group-item.active{
+  color: #FF6B00;
+  background-color: transparent;
+  border-color: transparent;
+  padding-left: 30px;
+}
+.list-group {
+  border-radius: 0;
+}
+.list-group-item-action:focus, .list-group-item-action:hover {
+  z-index: 1;
+  color: #FF6B00;
+  text-decoration: none;
+  background-color: transparent
+}
+.list-group-item+.list-group-item.active {
+ color: #FF6B00;
+}
+.list-group-item .active {
+  color: #FF6B00;
+  }
+ .article-header_container {
+    min-height: 400px;
+ }
+ .post__container,
+ .post__navigation,
+ .list-group-item  {
+    width: 240px;
+    background: linear-gradient(90deg, rgba(255, 107, 0, 0.1) 0%, rgba(255, 107, 0, 0) 100%);
+    border-left: 1px solid #FF6B00;
+ }
+ footer{
+    margin-top: 200px;
+ }
+ .post__container {
+    position: fixed;
+ }
